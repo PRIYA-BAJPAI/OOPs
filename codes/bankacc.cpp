@@ -3,7 +3,7 @@
 using namespace std;
 class Bankaccount{
     int accountno;
-    int balance;
+    int balance; 
     public:
     Bankaccount(int acc,int bal){
         accountno=acc;
@@ -27,4 +27,5 @@ int main(){
     Bankaccount b2=b;
     b.show();
     b2.show();
+    return 0;
 }
